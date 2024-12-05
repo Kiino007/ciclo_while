@@ -60,3 +60,21 @@
 
 # print(f"Poblacion final alcanzada: {poblacion}")
 
+
+#Lecturas de un sensor
+#Simular lecturas de un sensor que medira valores aleatorios hasta que alcance un valor objetivo.
+
+# import random
+
+# sensor = random.randint(0, 50) #se define con rango los numeros aleatorios
+# objetivo = 40  #definimos el objetivo
+# contador = 1   #definimos el contador para saber el numero de veces que midio el valor el sensor
+
+# while sensor < objetivo:
+#     print(f"En la lectura numero {contador}, el valor del sensor es: {sensor}")
+#     sensor += random.randint(1,10)   #se definen los pasos para que no haga infinito a numero de ejecuciones
+#     contador += 1  #se pone a sumar el numero de las interaciones
+
+# print(f"La lectura final alcanzada fue {sensor}")    
+
+
